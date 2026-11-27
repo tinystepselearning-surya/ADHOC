@@ -94,3 +94,6 @@ Remaining checks: actual CMS and GSC counts, query template response behaviour, 
 
 ## Duplicate-ID metric clarification
 Collector implementation inspected: duplicate_id_count = sum(v-1 for v in p.ids.values() if v>1). 16 canonical pages have 5 excess occurrences and 15 have 7 (185 total). Exact values, affected references and same-tree scope require follow-up. See findings/SR-B00-F02.md.
+
+## Raw-source findings registration
+All queued F01–F15 now have individual records in findings/ and are included in MASTER_AUDIT_CHECKLIST.md, alongside SR-001 (16 total). Raw-source review of the queued observations is complete within collector scope. F10/F11/F12/F13/F15 are contextual opportunities or investigation items, not confirmed functional failures. Remaining browser, rich-result, performance, actual indexing and crawler checks stay open. No raw files published. Further editorial observations (About title/description intent mismatch, generic OG copy across coaching pages, older results and leaflet references) are candidates for later content audit, not counted here.
