@@ -19,11 +19,15 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 [SR-B03 — Public local search and campus reconciliation](baseline/SR-B03_LOCAL_SEARCH_AND_CAMPUS_RECONCILIATION.md). Nine published entries at seven addresses; public listing sample and shared Maps-link evidence. Authenticated GBP coverage, ownership and rankings remain pending.
 
+## AI search readiness
+
+[SR-B04 — AEO/GEO and AI search readiness](baseline/SR-B04_AI_SEARCH_READINESS.md). Six-page public retrieval sample, parent-answer coverage, new factual quality findings, and proposed controlled AI citation testing. Actual AI visibility remains unmeasured.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
 | --- | --- | --- |
-| A01 | Content accuracy and editorial quality | In progress — SR-001–005; editorial coverage pending |
+| A01 | Content accuracy and editorial quality | In progress — SR-001–005 and SR-014–016; editorial coverage pending |
 | A02 | Website completeness and missing pages | In progress — SR-005/006/008; CMS and rendered coverage pending |
 | A03 | UI design, aesthetics and branding | In progress — mobile image warning; full visual review pending |
 | A04 | UX and navigation | In progress — raw internal link graph; rendered UX pending |
@@ -34,7 +38,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A09 | Keyword strategy and content gaps | In progress — F05 and SR-009/010; actual keyword mapping and demand pending |
 | A10 | Local SEO and Google Maps | In progress — SR-002/006/011–013; public profile sample complete; ownership and ranking pending |
 | A11 | Competitor benchmarking | In progress — public content architecture and review footprint sample; rank metrics pending |
-| A12 | AEO and GEO readiness | In progress — source schema inventory and experimental homepage agentic browsing results; eligibility and real visibility pending |
+| A12 | AEO and GEO readiness | In progress — six-page retrieval and source/agentic checks; actual citations, bot logs and rich results pending |
 | A13 | Website speed and performance | In progress — homepage lab evidence B01-F01; other templates and field data pending |
 | A14 | Accessibility | In progress — source findings B00-F01–F03; homepage automated findings B01-F02; manual testing pending |
 | A15 | Admissions and lead generation | In progress — SR-003/007; conversion data pending |
@@ -81,6 +85,9 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-011 | A04 / A10 | Different Miyapur addresses share one Maps heading link | High (proposed) | Verified link; correct physical destination pending | Open | [Detail](findings/SR-011.md) |
 | SR-012 | A10 / A18 | Website and public business record address/phone discrepancies | High investigation | Verified discrepancies; association and correct values pending | Open | [Detail](findings/SR-012.md) |
 | SR-013 | A10 / A11 | Limited sampled local review footprint | Medium opportunity | Verified public counts; attribution/history pending | Open | [Detail](findings/SR-013.md) |
+| SR-014 | A01 / A12 | Zero-valued institutional counters in retrieved homepage text | Medium (proposed) | Verified retrieval; final rendered values pending | Open | [Detail](findings/SR-014.md) |
+| SR-015 | A01 / A12 | National first-place NEET coaching claim requires substantiation | High editorial verification | Verified wording; ranking evidence pending | Open | [Detail](findings/SR-015.md) |
+| SR-016 | A01 / A12 | Ambiguous NEET, AIIMS and JIPMER preparation terminology | Medium (proposed) | Verified wording; intended meaning pending | Open | [Detail](findings/SR-016.md) |
 
 ## Finding record template
 
