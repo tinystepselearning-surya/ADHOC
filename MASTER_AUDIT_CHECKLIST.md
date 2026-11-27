@@ -23,15 +23,19 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 [SR-B04 — AEO/GEO and AI search readiness](baseline/SR-B04_AI_SEARCH_READINESS.md). Six-page public retrieval sample, parent-answer coverage, new factual quality findings, and proposed controlled AI citation testing. Actual AI visibility remains unmeasured.
 
+## Visual design and UX
+
+[SR-B05 — Homepage visual design and UX](baseline/SR-B05_VISUAL_DESIGN_AND_UX.md). Actual Lighthouse preview inspection completed; full-page rendered and interaction tests pending.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
 | --- | --- | --- |
 | A01 | Content accuracy and editorial quality | In progress — SR-001–005 and SR-014–016; editorial coverage pending |
 | A02 | Website completeness and missing pages | In progress — SR-005/006/008; CMS and rendered coverage pending |
-| A03 | UI design, aesthetics and branding | In progress — mobile image warning; full visual review pending |
-| A04 | UX and navigation | In progress — raw internal link graph; rendered UX pending |
-| A05 | Mobile responsiveness | In progress — mobile lab and image quality; full responsive review pending |
+| A03 | UI design, aesthetics and branding | In progress — homepage preview SR-017/018; full visual review pending |
+| A04 | UX and navigation | In progress — raw internal link graph and homepage preview SR-017/019; interaction tests pending |
+| A05 | Mobile responsiveness | In progress — mobile lab and preview SR-018; responsive tests pending |
 | A06 | Technical SEO | In progress — source crawl completed; homepage link audit B01-F03; exact links pending |
 | A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04/F05 |
 | A08 | Google rankings and organic visibility | In progress — expanded public search sample; controlled rankings/GSC pending |
@@ -88,6 +92,9 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-014 | A01 / A12 | Zero-valued institutional counters in retrieved homepage text | Medium (proposed) | Verified retrieval; final rendered values pending | Open | [Detail](findings/SR-014.md) |
 | SR-015 | A01 / A12 | National first-place NEET coaching claim requires substantiation | High editorial verification | Verified wording; ranking evidence pending | Open | [Detail](findings/SR-015.md) |
 | SR-016 | A01 / A12 | Ambiguous NEET, AIIMS and JIPMER preparation terminology | Medium (proposed) | Verified wording; intended meaning pending | Open | [Detail](findings/SR-016.md) |
+| SR-017 | A03 / A04 / A15 | Results-led homepage information hierarchy | High opportunity (proposed) | Verified preview; impact unmeasured | Open | [Detail](findings/SR-017.md) |
+| SR-018 | A03 / A05 | Mobile overlay and banner legibility review | Medium investigation | Verified preview; responsive defect unconfirmed | Open | [Detail](findings/SR-018.md) |
+| SR-019 | A04 / A14 | Carousel and announcement motion accessibility review | Medium investigation | Verified controls in preview; interaction behaviour pending | Open | [Detail](findings/SR-019.md) |
 
 ## Finding record template
 
