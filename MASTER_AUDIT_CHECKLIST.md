@@ -31,6 +31,10 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 [SR-B06 — Analytics and admissions conversion assurance](baseline/SR-B06_ANALYTICS_AND_CONVERSION_ASSURANCE.md). Form inventory reconciled; tracking installation and event delivery unverified; internal evidence and authorized test plan recorded. No new confirmed defect.
 
+## Technology and infrastructure assurance
+
+[SR-B07 — Technology and infrastructure assurance](baseline/SR-B07_TECHNOLOGY_AND_INFRASTRUCTURE_ASSURANCE.md). Public technology and header configuration reviewed; authenticated security, backups and ownership pending.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
@@ -47,11 +51,11 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A10 | Local SEO and Google Maps | In progress — SR-002/006/011–013; public profile sample complete; ownership and ranking pending |
 | A11 | Competitor benchmarking | In progress — public content architecture and review footprint sample; rank metrics pending |
 | A12 | AEO and GEO readiness | In progress — six-page retrieval and source/agentic checks; actual citations, bot logs and rich results pending |
-| A13 | Website speed and performance | In progress — homepage lab evidence B01-F01; other templates and field data pending |
+| A13 | Website speed and performance | In progress — homepage lab B01-F01 and cache policy SR-021; other templates and field data pending |
 | A14 | Accessibility | In progress — source findings B00-F01–F03; homepage automated findings B01-F02; manual testing pending |
 | A15 | Admissions and lead generation | In progress — SR-003/007/009; conversion assurance plan B06; internal data pending |
 | A16 | Analytics and conversion tracking | Public evidence reviewed — internal validation and Tag Assistant pending |
-| A17 | Technology, security and privacy | In progress — homepage automated warnings B01-F04–F06; exact details pending |
+| A17 | Technology, security and privacy | In progress — public response review SR-020 and B01-F04–F06; authenticated controls pending |
 | A18 | Maintenance, reporting and accountability | In progress — F06 publication review; internal evidence pending |
 
 ## Findings register
@@ -99,6 +103,8 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-017 | A03 / A04 / A15 | Results-led homepage information hierarchy | High opportunity (proposed) | Verified preview; impact unmeasured | Open | [Detail](findings/SR-017.md) |
 | SR-018 | A03 / A05 | Mobile overlay and banner legibility review | Medium investigation | Verified preview; responsive defect unconfirmed | Open | [Detail](findings/SR-018.md) |
 | SR-019 | A04 / A14 | Carousel and announcement motion accessibility review | Medium investigation | Verified controls in preview; interaction behaviour pending | Open | [Detail](findings/SR-019.md) |
+| SR-020 | A17 | Public response security-hardening review | High investigation | Verified response configuration; effectiveness pending | Open | [Detail](findings/SR-020.md) |
+| SR-021 | A13 / A17 | Public HTML cache policy requires performance review | Medium investigation | Verified response header; causal impact pending | Open | [Detail](findings/SR-021.md) |
 
 ## Finding record template
 
