@@ -15,8 +15,8 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 | ID | Workstream | Status |
 | --- | --- | --- |
-| A01 | Content accuracy and editorial quality | In progress — SR-001 to SR-003 |
-| A02 | Website completeness and missing pages | Pending |
+| A01 | Content accuracy and editorial quality | In progress — SR-001–005; editorial coverage pending |
+| A02 | Website completeness and missing pages | In progress — SR-005/006/008; CMS and rendered coverage pending |
 | A03 | UI design, aesthetics and branding | In progress — mobile image warning; full visual review pending |
 | A04 | UX and navigation | In progress — raw internal link graph; rendered UX pending |
 | A05 | Mobile responsiveness | In progress — mobile lab and image quality; full responsive review pending |
@@ -24,12 +24,12 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04/F05 |
 | A08 | Google rankings and organic visibility | In progress — preliminary public search sample; controlled rankings/GSC pending |
 | A09 | Keyword strategy and content gaps | In progress — F05; actual keyword mapping pending |
-| A10 | Local SEO and Google Maps | In progress — SR-002; profile and map destination verification pending |
+| A10 | Local SEO and Google Maps | In progress — SR-002/006; profile and map destination verification pending |
 | A11 | Competitor benchmarking | In progress — public programme-page examples |
 | A12 | AEO and GEO readiness | In progress — source schema inventory and experimental homepage agentic browsing results; eligibility and real visibility pending |
 | A13 | Website speed and performance | In progress — homepage lab evidence B01-F01; other templates and field data pending |
 | A14 | Accessibility | In progress — source findings B00-F01–F03; homepage automated findings B01-F02; manual testing pending |
-| A15 | Admissions and lead generation | In progress — SR-003; conversion data pending |
+| A15 | Admissions and lead generation | In progress — SR-003/007; conversion data pending |
 | A16 | Analytics and conversion tracking | Pending |
 | A17 | Technology, security and privacy | In progress — homepage automated warnings B01-F04–F06; exact details pending |
 | A18 | Maintenance, reporting and accountability | In progress — F06 publication review; internal evidence pending |
@@ -63,6 +63,11 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-B01-F05 | A17 / A18 | Browser console errors and DevTools issues | Medium; escalate for broken core flows | Verified desktop flags and mobile console flag; exact diagnostics unknown | Open | [Detail](findings/SR-B01-F05.md) |
 | SR-B01-F06 | A17 / A16 | Third-party cookies require privacy review | Investigation | Verified four cookies flagged on each device; purpose unknown | Open | [Detail](findings/SR-B01-F06.md) |
 | SR-B01-F07 | A03 / A05 | Mobile low-resolution image warning | Medium investigation priority | Verified mobile audit flag; affected assets unknown | Open | [Detail](findings/SR-B01-F07.md) |
+| SR-004 | A01 | Engineering-oriented introductory copy on both NEET coaching pages | Medium (proposed) | Verified retrieved text | Open | [Detail](findings/SR-004.md) |
+| SR-005 | A01 / A02 | Four streams described as five integrated programmes without explanation | Medium (proposed) | Verified text; academic clarification required | Open | [Detail](findings/SR-005.md) |
+| SR-006 | A02 / A10 | No dedicated campus landing pages in observed URL inventory | High opportunity (proposed) | Verified within bounded crawl; CMS completeness pending | Open | [Detail](findings/SR-006.md) |
+| SR-007 | A15 / A17 | Enquiry form information and privacy disclosure review | High investigation priority | Verified form inventory and extracted visible fields; processing untested | Open | [Detail](findings/SR-007.md) |
+| SR-008 | A02 / A09 / A12 | MPC and video pages offer limited retrievable primary text | Medium for active pages (proposed) | Verified public extraction; rendering pending | Open | [Detail](findings/SR-008.md) |
 
 ## Finding record template
 
