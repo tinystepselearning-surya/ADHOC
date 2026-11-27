@@ -16,7 +16,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A03 | UI design, aesthetics and branding | Pending |
 | A04 | UX and navigation | Pending |
 | A05 | Mobile responsiveness | Pending |
-| A06 | Technical SEO | In progress — source crawl completed; SR-B00-F02/F03 |
+| A06 | Technical SEO | In progress — source crawl completed; SR-B00-F02/F03/F06 |
 | A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04/F05 |
 | A08 | Google rankings and organic visibility | Pending |
 | A09 | Keyword strategy and content gaps | In progress — F05; actual keyword mapping pending |
@@ -28,7 +28,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A15 | Admissions and lead generation | Pending |
 | A16 | Analytics and conversion tracking | Pending |
 | A17 | Technology, security and privacy | Pending |
-| A18 | Maintenance, reporting and accountability | Pending |
+| A18 | Maintenance, reporting and accountability | In progress — F06 publication review; internal evidence pending |
 
 ## Findings register
 
@@ -40,6 +40,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-B00-F03 | A14 / A06 | Native main, header and footer elements absent on all 31 canonical pages | Medium (proposed) | Verified — native tag counts; ARIA and accessibility tree pending | Open | [Detail](findings/SR-B00-F03.md) |
 | SR-B00-F04 | A07 | Missing meta descriptions on 24/31 pages, including all eight short/long exam coaching pages | High for active admissions URLs (proposed) | Verified — source metrics | Open | [Detail](findings/SR-B00-F04.md) |
 | SR-B00-F05 | A07 / A09 | Five duplicate title groups affecting 10/31 canonical pages; all four short/long exam course pairs | High for active admissions URLs (proposed) | Verified — source metadata | Open | [Detail](findings/SR-B00-F05.md) |
+| SR-B00-F06 | A06 / A18 | Additional homepage-copy URL is public, self-canonical and sitemap-listed with identical search metadata | High if redundant (proposed) | Verified configuration; content equivalence and indexation pending | Open | [Detail](findings/SR-B00-F06.md) |
 
 ## Finding record template
 
