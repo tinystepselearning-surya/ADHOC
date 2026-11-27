@@ -39,6 +39,10 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 [SR-B08 — Page-by-page editorial reconciliation](baseline/SR-B08_EDITORIAL_RECONCILIATION.md). All 31 source records reconciled; 24 public text retrievals succeeded, seven unavailable; rendered content and academic approvals pending.
 
+## Presentation 1 public validation
+
+[SR-B10 — Public validation and outstanding checks](baseline/SR-B10_PRESENTATION_ONE_PUBLIC_VALIDATION.md). Public DR sample, campus competitor comparison, Success page corroboration, official social link inventory; controlled Google ranks, AI citations, validator outputs, full-page UX and social activity remain bounded manual checks. No new confirmed defects.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
@@ -50,10 +54,10 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A05 | Mobile responsiveness | In progress — mobile lab and preview SR-018; responsive tests pending |
 | A06 | Technical SEO | In progress — source crawl completed; homepage link audit B01-F03; exact links pending |
 | A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04/F05 |
-| A08 | Google rankings and organic visibility | In progress — expanded public search sample; controlled rankings/GSC pending |
+| A08 | Google rankings and organic visibility | In progress — public search and DR sample; direct SERP and Ahrefs rank access blocked |
 | A09 | Keyword strategy and content gaps | In progress — F05 and SR-009/010; actual keyword mapping and demand pending |
 | A10 | Local SEO and Google Maps | In progress — SR-002/006/011–013; public profile sample complete; ownership and ranking pending |
-| A11 | Competitor benchmarking | In progress — public content architecture and review footprint sample; rank metrics pending |
+| A11 | Competitor benchmarking | In progress — public content architecture, Vignan campus comparison and DR/review samples; ranks pending |
 | A12 | AEO and GEO readiness | In progress — six-page retrieval and source/agentic checks; actual citations, bot logs and rich results pending |
 | A13 | Website speed and performance | In progress — homepage lab B01-F01 and cache policy SR-021; other templates and field data pending |
 | A14 | Accessibility | In progress — source findings B00-F01–F03; homepage automated findings B01-F02; manual testing pending |
