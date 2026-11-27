@@ -66,3 +66,11 @@ The gallery index lists seven event links. The individual paths above are candid
 - https://developers.openai.com/api/docs/bots
 
 No site changes made. No numeric HTML, SEO, schema or LLM readiness scores assigned. No confidential or personal data retained. This baseline precedes detailed defect registration; pending checks are not failures.
+
+## Source crawl execution attempt — 2026-11-27 IST
+- Direct HTTPS curl from audit runtime failed with exit 6 (could not resolve host sriraama.in). Public web retrieval of homepage succeeded independently; no site DNS outage inferred.
+- Web retrieval of robots.txt, sitemap.xml, sitemap_index.xml, wp-sitemap.xml and wp-json/ remained unavailable. No absence or blockage inferred.
+- Prepared downloadable standard-library Python collector sriraama_source_audit.py for execution from an independent network. SHA-256: c920f97614c83a0674a06105cf712e6ddd4baa1117f72687b38f924f68447da8.
+- Syntax and synthetic parser smoke tests passed; live crawl not completed. Collector checks robots first, fails closed for ambiguous/unsupported policies, rate-limits requests, follows same-site redirects only and stops on 429/503. Bounded to 300 candidate URLs and 30 sitemaps; skips query/action paths and non-HTML assets. Output: audit.json, pages.csv, summary.json.
+- Completion gate: review collector output, reconcile final URLs and canonical URLs, check remaining queues, blocked/failed endpoints and sitemap coverage. Do not infer exact published or indexed count from crawl alone.
+- Independent browser rendering, HTML conformance, rich result eligibility, real search crawler logs, GSC and Core Web Vitals remain separate checks. Do not commit unsanitized output or student data to the public repository.
