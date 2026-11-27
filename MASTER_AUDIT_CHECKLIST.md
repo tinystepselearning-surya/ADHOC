@@ -17,9 +17,9 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A04 | UX and navigation | Pending |
 | A05 | Mobile responsiveness | Pending |
 | A06 | Technical SEO | In progress — source crawl completed; SR-B00-F02/F03 |
-| A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04 |
+| A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04/F05 |
 | A08 | Google rankings and organic visibility | Pending |
-| A09 | Keyword strategy and content gaps | Pending |
+| A09 | Keyword strategy and content gaps | In progress — F05; actual keyword mapping pending |
 | A10 | Local SEO and Google Maps | Pending |
 | A11 | Competitor benchmarking | Pending |
 | A12 | AEO and GEO readiness | Pending |
@@ -39,6 +39,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-B00-F02 | A06 / A14 | Repeated HTML element IDs on all 31 canonical pages; 185 excess occurrences | Medium (proposed) | Verified — source counts; DOM scope pending | Open | [Detail](findings/SR-B00-F02.md) |
 | SR-B00-F03 | A14 / A06 | Native main, header and footer elements absent on all 31 canonical pages | Medium (proposed) | Verified — native tag counts; ARIA and accessibility tree pending | Open | [Detail](findings/SR-B00-F03.md) |
 | SR-B00-F04 | A07 | Missing meta descriptions on 24/31 pages, including all eight short/long exam coaching pages | High for active admissions URLs (proposed) | Verified — source metrics | Open | [Detail](findings/SR-B00-F04.md) |
+| SR-B00-F05 | A07 / A09 | Five duplicate title groups affecting 10/31 canonical pages; all four short/long exam course pairs | High for active admissions URLs (proposed) | Verified — source metadata | Open | [Detail](findings/SR-B00-F05.md) |
 
 ## Finding record template
 
