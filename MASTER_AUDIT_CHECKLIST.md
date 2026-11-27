@@ -7,25 +7,29 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 [SR-B00 — Preliminary technical baseline](baseline/SR-B00_TECHNICAL_BASELINE.md). In progress; bounded raw source crawl completed: 31 self-canonical pages, 32 distinct final HTML URLs, 35 successful candidate requests. Sitemap and robots policy verified. Rich results, rendered DOM, performance, Google indexing and real bot access remain pending. Technical findings use SR-B00-Fxx IDs; SR-001 remains recorded.
 
+## Independent validation
+
+[SR-B01 — Independent validation progress](baseline/SR-B01_INDEPENDENT_VALIDATION.md). Performance collection blocked externally; public search discovery sample and content checks started. No measured ranking or speed claims.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
 | --- | --- | --- |
-| A01 | Content accuracy and editorial quality | In progress — 1 finding |
+| A01 | Content accuracy and editorial quality | In progress — SR-001 to SR-003 |
 | A02 | Website completeness and missing pages | Pending |
 | A03 | UI design, aesthetics and branding | Pending |
 | A04 | UX and navigation | In progress — raw internal link graph; rendered UX pending |
 | A05 | Mobile responsiveness | Pending |
 | A06 | Technical SEO | In progress — source crawl completed; SR-B00-F02/F03/F06 |
 | A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04/F05 |
-| A08 | Google rankings and organic visibility | Pending |
+| A08 | Google rankings and organic visibility | In progress — preliminary public search sample; controlled rankings/GSC pending |
 | A09 | Keyword strategy and content gaps | In progress — F05; actual keyword mapping pending |
-| A10 | Local SEO and Google Maps | Pending |
-| A11 | Competitor benchmarking | Pending |
+| A10 | Local SEO and Google Maps | In progress — SR-002; profile and map destination verification pending |
+| A11 | Competitor benchmarking | In progress — public programme-page examples |
 | A12 | AEO and GEO readiness | In progress — source schema inventory; eligibility and real visibility pending |
 | A13 | Website speed and performance | In progress — source indicators; browser and field measurements pending |
 | A14 | Accessibility | In progress — source findings F01–F03; DOM testing pending |
-| A15 | Admissions and lead generation | Pending |
+| A15 | Admissions and lead generation | In progress — SR-003; conversion data pending |
 | A16 | Analytics and conversion tracking | Pending |
 | A17 | Technology, security and privacy | Pending |
 | A18 | Maintenance, reporting and accountability | In progress — F06 publication review; internal evidence pending |
@@ -50,6 +54,8 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-B00-F13 | A12 / A07 | Generic structured data; educational entities not detected | Medium opportunity; not a rich-result defect by itself | Verified type inventory; field-level validation pending | Open | [Detail](findings/SR-B00-F13.md) |
 | SR-B00-F14 | A01 / A07 | Placeholder text in Yoga Open Graph description | Medium (proposed) | Verified metadata text; rendered body pending | Open | [Detail](findings/SR-B00-F14.md) |
 | SR-B00-F15 | A06 / A18 | Elementor template entries exposed in sitemap | Investigation; priority depends on response/indexability | Verified sitemap entries; endpoint behaviour untested | Open | [Detail](findings/SR-B00-F15.md) |
+| SR-002 | A01 / A10 | Contradictory Miyapur campus gender labels | High (proposed) | Verified retrieved text; correct designation pending | Open | [Detail](findings/SR-002.md) |
+| SR-003 | A01 / A09 / A15 | Limited differentiated decision information in short/long JEE course copy | High for active admissions (proposed) | Verified extraction; rendered extras pending | Open | [Detail](findings/SR-003.md) |
 
 ## Finding record template
 
