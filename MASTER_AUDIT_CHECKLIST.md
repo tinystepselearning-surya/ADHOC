@@ -11,6 +11,10 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 [SR-B01 — Independent validation progress](baseline/SR-B01_INDEPENDENT_VALIDATION.md). Homepage mobile and desktop PSI reports received; lab performance and automated audit findings recorded. Other templates, field data and controlled search rankings remain pending.
 
+## Search and competitor coverage
+
+[SR-B02 — Public search and competitor coverage](baseline/SR-B02_SEARCH_AND_COMPETITOR_COVERAGE.md). Current search sample, proposed intent-to-page mapping, and outstanding controlled ranking requirements.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
@@ -22,10 +26,10 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A05 | Mobile responsiveness | In progress — mobile lab and image quality; full responsive review pending |
 | A06 | Technical SEO | In progress — source crawl completed; homepage link audit B01-F03; exact links pending |
 | A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04/F05 |
-| A08 | Google rankings and organic visibility | In progress — preliminary public search sample; controlled rankings/GSC pending |
-| A09 | Keyword strategy and content gaps | In progress — F05; actual keyword mapping pending |
+| A08 | Google rankings and organic visibility | In progress — expanded public search sample; controlled rankings/GSC pending |
+| A09 | Keyword strategy and content gaps | In progress — F05 and SR-009/010; actual keyword mapping and demand pending |
 | A10 | Local SEO and Google Maps | In progress — SR-002/006; profile and map destination verification pending |
-| A11 | Competitor benchmarking | In progress — public programme-page examples |
+| A11 | Competitor benchmarking | In progress — comparative public content architecture; rank metrics pending |
 | A12 | AEO and GEO readiness | In progress — source schema inventory and experimental homepage agentic browsing results; eligibility and real visibility pending |
 | A13 | Website speed and performance | In progress — homepage lab evidence B01-F01; other templates and field data pending |
 | A14 | Accessibility | In progress — source findings B00-F01–F03; homepage automated findings B01-F02; manual testing pending |
@@ -68,6 +72,8 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-006 | A02 / A10 | No dedicated campus landing pages in observed URL inventory | High opportunity (proposed) | Verified within bounded crawl; CMS completeness pending | Open | [Detail](findings/SR-006.md) |
 | SR-007 | A15 / A17 | Enquiry form information and privacy disclosure review | High investigation priority | Verified form inventory and extracted visible fields; processing untested | Open | [Detail](findings/SR-007.md) |
 | SR-008 | A02 / A09 / A12 | MPC and video pages offer limited retrievable primary text | Medium for active pages (proposed) | Verified public extraction; rendering pending | Open | [Detail](findings/SR-008.md) |
+| SR-009 | A02 / A09 / A15 | No dedicated admissions landing page in observed inventory | High opportunity (proposed) | Verified inventory; CMS/campaign scope pending | Open | [Detail](findings/SR-009.md) |
+| SR-010 | A09 / A11 | Limited observed parent-guide and editorial search coverage | Medium to high opportunity (proposed) | Verified inventory and competitor examples; CMS and demand pending | Open | [Detail](findings/SR-010.md) |
 
 ## Finding record template
 
