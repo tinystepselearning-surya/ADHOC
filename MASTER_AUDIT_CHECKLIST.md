@@ -5,7 +5,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 ## Technical baseline — Phase 00
 
-[SR-B00 — Preliminary technical baseline](baseline/SR-B00_TECHNICAL_BASELINE.md). In progress; public extraction verified, full raw HTML crawl, sitemap, structured data and AI crawler policy remain pending. Complete baseline before continuing A01. SR-001 remains recorded.
+[SR-B00 — Preliminary technical baseline](baseline/SR-B00_TECHNICAL_BASELINE.md). In progress; bounded raw source crawl completed: 31 self-canonical pages, 32 distinct final HTML URLs, 35 successful candidate requests. Sitemap and robots policy verified. Rich results, rendered DOM, performance, Google indexing and real bot access remain pending. Technical findings use SR-B00-Fxx IDs; SR-001 remains recorded.
 
 ## Audit workstreams
 
@@ -16,8 +16,8 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A03 | UI design, aesthetics and branding | Pending |
 | A04 | UX and navigation | Pending |
 | A05 | Mobile responsiveness | Pending |
-| A06 | Technical SEO | Pending |
-| A07 | On-page SEO | Pending |
+| A06 | Technical SEO | In progress — source crawl completed |
+| A07 | On-page SEO | In progress — source baseline and SR-B00-F01 |
 | A08 | Google rankings and organic visibility | Pending |
 | A09 | Keyword strategy and content gaps | Pending |
 | A10 | Local SEO and Google Maps | Pending |
@@ -35,6 +35,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | ID | Workstream | Finding | Severity | Evidence status | Review status | Detail |
 | --- | --- | --- | --- | --- | --- | --- |
 | SR-001 | A01 | NEET coaching listed on MPC–JEE programme page | High | Verified — retrieved text | Open | [Detail](findings/SR-001.md) |
+| SR-B00-F01 | A07 / A14 | All 31 self-canonical pages lack native H1 headings in source | High (proposed) | Verified — source metrics | Open | [Detail](findings/SR-B00-F01.md) |
 
 ## Finding record template
 
