@@ -15,3 +15,6 @@ These are competitor-authored claims, not independently validated educational ou
 
 ## Remaining audit gates
 Rendered design/mobile and accessibility; live PSI and field data; HTML and rich-result validation; page-level content audit; local profile reconciliation; controlled search visibility and AI citation testing; admissions funnel and analytics (internal data needed); infrastructure/privacy and governance (internal evidence). No website changes or form submissions. Raw personal data not published.
+
+## Local PSI collector attempt — 2026-11-27
+User-supplied summary(1).json inspected: expected_reports=16, successful_reports=0, stopped_early=true; first request for homepage mobile returned HTTP 429. This is a Google PSI API request limit response reported by the collector, not the audited website's HTTP status or performance result. The precise quota/rate-limit cause is unknown. No Lighthouse score, CrUX data or other metric collected. Stop automatic retries. Next: run the public PageSpeed Insights UI manually for homepage mobile and desktop, or use Chrome DevTools Lighthouse locally if PSI remains unavailable. Capture report timestamps, URL, device and lab/field distinction; local Lighthouse TBT is not field INP. A13 remains pending measured validation. Do not register a site defect from the collector failure.
