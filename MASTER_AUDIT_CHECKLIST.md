@@ -1,13 +1,13 @@
 # Master Website Audit Checklist
 
-Status: initialized; no organisation-specific evidence recorded in this public repository.
-Purpose: evidence-led website review. Store confidential findings only after repository visibility is confirmed private.
+Status: Sri Raama public website review in progress (started 2026-11-27 IST).
+Scope: https://sriraama.in/ — factual observations from publicly accessible sources only. Repository is public by user choice; confidential material and private commercial strategy are excluded.
 
 ## Audit workstreams
 
 | ID | Workstream | Status |
 | --- | --- | --- |
-| A01 | Content accuracy and editorial quality | Not recorded |
+| A01 | Content accuracy and editorial quality | In progress — 1 finding |
 | A02 | Website completeness and missing pages | Pending |
 | A03 | UI design, aesthetics and branding | Pending |
 | A04 | UX and navigation | Pending |
@@ -30,7 +30,7 @@ Purpose: evidence-led website review. Store confidential findings only after rep
 
 | ID | Workstream | Finding | Severity | Evidence status | Review status | Detail |
 | --- | --- | --- | --- | --- | --- | --- |
-| | | | | | | |
+| SR-001 | A01 | NEET coaching listed on MPC–JEE programme page | High | Verified — retrieved text | Open | [Detail](findings/SR-001.md) |
 
 ## Finding record template
 
