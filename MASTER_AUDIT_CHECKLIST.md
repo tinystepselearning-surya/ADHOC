@@ -16,7 +16,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A03 | UI design, aesthetics and branding | Pending |
 | A04 | UX and navigation | Pending |
 | A05 | Mobile responsiveness | Pending |
-| A06 | Technical SEO | In progress — source crawl completed |
+| A06 | Technical SEO | In progress — source crawl completed; SR-B00-F02 |
 | A07 | On-page SEO | In progress — source baseline and SR-B00-F01 |
 | A08 | Google rankings and organic visibility | Pending |
 | A09 | Keyword strategy and content gaps | Pending |
@@ -24,7 +24,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A11 | Competitor benchmarking | Pending |
 | A12 | AEO and GEO readiness | Pending |
 | A13 | Website speed and performance | Pending |
-| A14 | Accessibility | Pending |
+| A14 | Accessibility | In progress — source findings F01/F02; DOM testing pending |
 | A15 | Admissions and lead generation | Pending |
 | A16 | Analytics and conversion tracking | Pending |
 | A17 | Technology, security and privacy | Pending |
@@ -36,6 +36,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | --- | --- | --- | --- | --- | --- | --- |
 | SR-001 | A01 | NEET coaching listed on MPC–JEE programme page | High | Verified — retrieved text | Open | [Detail](findings/SR-001.md) |
 | SR-B00-F01 | A07 / A14 | All 31 self-canonical pages lack native H1 headings in source | High (proposed) | Verified — source metrics | Open | [Detail](findings/SR-B00-F01.md) |
+| SR-B00-F02 | A06 / A14 | Repeated HTML element IDs on all 31 canonical pages; 185 excess occurrences | Medium (proposed) | Verified — source counts; DOM scope pending | Open | [Detail](findings/SR-B00-F02.md) |
 
 ## Finding record template
 
