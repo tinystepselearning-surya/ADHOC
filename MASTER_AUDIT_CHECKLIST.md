@@ -3,6 +3,10 @@
 Status: Sri Raama public website review in progress (started 2026-11-27 IST).
 Scope: https://sriraama.in/ — factual observations from publicly accessible sources only. Repository is public by user choice; confidential material and private commercial strategy are excluded.
 
+## Technical baseline — Phase 00
+
+[SR-B00 — Preliminary technical baseline](baseline/SR-B00_TECHNICAL_BASELINE.md). In progress; public extraction verified, full raw HTML crawl, sitemap, structured data and AI crawler policy remain pending. Complete baseline before continuing A01. SR-001 remains recorded.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
