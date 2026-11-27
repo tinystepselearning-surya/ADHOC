@@ -27,6 +27,10 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 [SR-B05 — Homepage visual design and UX](baseline/SR-B05_VISUAL_DESIGN_AND_UX.md). Actual Lighthouse preview inspection completed; full-page rendered and interaction tests pending.
 
+## Analytics and conversion assurance
+
+[SR-B06 — Analytics and admissions conversion assurance](baseline/SR-B06_ANALYTICS_AND_CONVERSION_ASSURANCE.md). Form inventory reconciled; tracking installation and event delivery unverified; internal evidence and authorized test plan recorded. No new confirmed defect.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
@@ -45,8 +49,8 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A12 | AEO and GEO readiness | In progress — six-page retrieval and source/agentic checks; actual citations, bot logs and rich results pending |
 | A13 | Website speed and performance | In progress — homepage lab evidence B01-F01; other templates and field data pending |
 | A14 | Accessibility | In progress — source findings B00-F01–F03; homepage automated findings B01-F02; manual testing pending |
-| A15 | Admissions and lead generation | In progress — SR-003/007; conversion data pending |
-| A16 | Analytics and conversion tracking | Pending |
+| A15 | Admissions and lead generation | In progress — SR-003/007/009; conversion assurance plan B06; internal data pending |
+| A16 | Analytics and conversion tracking | Public evidence reviewed — internal validation and Tag Assistant pending |
 | A17 | Technology, security and privacy | In progress — homepage automated warnings B01-F04–F06; exact details pending |
 | A18 | Maintenance, reporting and accountability | In progress — F06 publication review; internal evidence pending |
 
@@ -66,7 +70,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-B00-F09 | A06 | Gallery links to uppercase non-canonical Sports URL | Low to medium (proposed) | Verified URL and canonical configuration | Open | [Detail](findings/SR-B00-F09.md) |
 | SR-B00-F10 | A14 / A07 | Empty image alternative text requires classification | Medium; raise for informative admission imagery | Verified counts; contextual accessibility review pending | Open | [Detail](findings/SR-B00-F10.md) |
 | SR-B00-F11 | A13 | Image dimension attributes absent on 202 occurrences | Medium investigation priority | Verified source counts; homepage lab CLS measured separately B01-F01 | Open | [Detail](findings/SR-B00-F11.md) |
-| SR-B00-F12 | A13 | High script element counts warrant performance investigation | Investigation; severity pending measurements | Verified source counts; homepage lab workload measured B01-F01 | Open | [Detail](findings/SR-B00-F12.md) |
+| SR-B00-F12 | A13 | High source-referenced script element counts warrant performance investigation | Investigation; severity pending measurements | Verified source counts; homepage lab workload measured B01-F01 | Open | [Detail](findings/SR-B00-F12.md) |
 | SR-B00-F13 | A12 / A07 | Generic structured data; educational entities not detected | Medium opportunity; not a rich-result defect by itself | Verified type inventory; field-level validation pending | Open | [Detail](findings/SR-B00-F13.md) |
 | SR-B00-F14 | A01 / A07 | Placeholder text in Yoga Open Graph description | Medium (proposed) | Verified metadata text; rendered body pending | Open | [Detail](findings/SR-B00-F14.md) |
 | SR-B00-F15 | A06 / A18 | Elementor template entries exposed in sitemap | Investigation; priority depends on response/indexability | Verified sitemap entries; endpoint behaviour untested | Open | [Detail](findings/SR-B00-F15.md) |
