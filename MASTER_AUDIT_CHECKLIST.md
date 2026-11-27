@@ -35,11 +35,15 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 
 [SR-B07 — Technology and infrastructure assurance](baseline/SR-B07_TECHNOLOGY_AND_INFRASTRUCTURE_ASSURANCE.md). Public technology and header configuration reviewed; authenticated security, backups and ownership pending.
 
+## Editorial reconciliation
+
+[SR-B08 — Page-by-page editorial reconciliation](baseline/SR-B08_EDITORIAL_RECONCILIATION.md). All 31 source records reconciled; 24 public text retrievals succeeded, seven unavailable; rendered content and academic approvals pending.
+
 ## Audit workstreams
 
 | ID | Workstream | Status |
 | --- | --- | --- |
-| A01 | Content accuracy and editorial quality | In progress — SR-001–005 and SR-014–016; editorial coverage pending |
+| A01 | Content accuracy and editorial quality | In progress — 31 source records reconciled; 24 text retrievals; SR-022–026 and prior editorial findings |
 | A02 | Website completeness and missing pages | In progress — SR-005/006/008; CMS and rendered coverage pending |
 | A03 | UI design, aesthetics and branding | In progress — homepage preview SR-017/018; full visual review pending |
 | A04 | UX and navigation | In progress — raw internal link graph and homepage preview SR-017/019; interaction tests pending |
@@ -76,7 +80,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-B00-F11 | A13 | Image dimension attributes absent on 202 occurrences | Medium investigation priority | Verified source counts; homepage lab CLS measured separately B01-F01 | Open | [Detail](findings/SR-B00-F11.md) |
 | SR-B00-F12 | A13 | High source-referenced script element counts warrant performance investigation | Investigation; severity pending measurements | Verified source counts; homepage lab workload measured B01-F01 | Open | [Detail](findings/SR-B00-F12.md) |
 | SR-B00-F13 | A12 / A07 | Generic structured data; educational entities not detected | Medium opportunity; not a rich-result defect by itself | Verified type inventory; field-level validation pending | Open | [Detail](findings/SR-B00-F13.md) |
-| SR-B00-F14 | A01 / A07 | Placeholder text in Yoga Open Graph description | Medium (proposed) | Verified metadata text; rendered body pending | Open | [Detail](findings/SR-B00-F14.md) |
+| SR-B00-F14 | A01 / A07 | Placeholder text in Yoga Open Graph description | Medium (proposed) | Verified metadata and retrieved body; rendered appearance pending | Open | [Detail](findings/SR-B00-F14.md) |
 | SR-B00-F15 | A06 / A18 | Elementor template entries exposed in sitemap | Investigation; priority depends on response/indexability | Verified sitemap entries; endpoint behaviour untested | Open | [Detail](findings/SR-B00-F15.md) |
 | SR-002 | A01 / A10 | Contradictory Miyapur campus gender labels | High (proposed) | Verified retrieved text; correct designation pending | Open | [Detail](findings/SR-002.md) |
 | SR-003 | A01 / A09 / A15 | Limited differentiated decision information in short/long JEE course copy | High for active admissions (proposed) | Verified extraction; rendered extras pending | Open | [Detail](findings/SR-003.md) |
@@ -105,6 +109,11 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-019 | A04 / A14 | Carousel and announcement motion accessibility review | Medium investigation | Verified controls in preview; interaction behaviour pending | Open | [Detail](findings/SR-019.md) |
 | SR-020 | A17 | Public response security-hardening review | High investigation | Verified response configuration; effectiveness pending | Open | [Detail](findings/SR-020.md) |
 | SR-021 | A13 / A17 | Public HTML cache policy requires performance review | Medium investigation | Verified response header; causal impact pending | Open | [Detail](findings/SR-021.md) |
+| SR-022 | A01 | Incorrect BITSAT institution name and incomplete exam-section description | High (proposed) | Verified published copy and official exam reference | Open | [Detail](findings/SR-022.md) |
+| SR-023 | A01 / A02 | International Studies offering and awarding relationships unclear | High investigation | Verified text; role and partnerships pending | Open | [Detail](findings/SR-023.md) |
+| SR-024 | A01 / A18 | Historical Success page results and leaflets require currency review | Medium to high if presented as current | Verified source metadata and filenames; PDF contents pending | Open | [Detail](findings/SR-024.md) |
+| SR-025 | A01 / A07 | About Us page metadata misaligned with institutional purpose and copy quality | Medium (proposed) | Verified raw title/description and retrieved text | Open | [Detail](findings/SR-025.md) |
+| SR-026 | A01 / A03 | Freshers 2025 and Sports pages share six linked image assets | Medium investigation | Verified identical linked asset sets; visual/event identity pending | Open | [Detail](findings/SR-026.md) |
 
 ## Finding record template
 
