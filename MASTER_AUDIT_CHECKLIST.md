@@ -14,7 +14,7 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A01 | Content accuracy and editorial quality | In progress — 1 finding |
 | A02 | Website completeness and missing pages | Pending |
 | A03 | UI design, aesthetics and branding | Pending |
-| A04 | UX and navigation | Pending |
+| A04 | UX and navigation | In progress — raw internal link graph; rendered UX pending |
 | A05 | Mobile responsiveness | Pending |
 | A06 | Technical SEO | In progress — source crawl completed; SR-B00-F02/F03/F06 |
 | A07 | On-page SEO | In progress — source baseline and SR-B00-F01/F04/F05 |
@@ -22,8 +22,8 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | A09 | Keyword strategy and content gaps | In progress — F05; actual keyword mapping pending |
 | A10 | Local SEO and Google Maps | Pending |
 | A11 | Competitor benchmarking | Pending |
-| A12 | AEO and GEO readiness | Pending |
-| A13 | Website speed and performance | Pending |
+| A12 | AEO and GEO readiness | In progress — source schema inventory; eligibility and real visibility pending |
+| A13 | Website speed and performance | In progress — source indicators; browser and field measurements pending |
 | A14 | Accessibility | In progress — source findings F01–F03; DOM testing pending |
 | A15 | Admissions and lead generation | Pending |
 | A16 | Analytics and conversion tracking | Pending |
@@ -41,6 +41,15 @@ Scope: https://sriraama.in/ — factual observations from publicly accessible so
 | SR-B00-F04 | A07 | Missing meta descriptions on 24/31 pages, including all eight short/long exam coaching pages | High for active admissions URLs (proposed) | Verified — source metrics | Open | [Detail](findings/SR-B00-F04.md) |
 | SR-B00-F05 | A07 / A09 | Five duplicate title groups affecting 10/31 canonical pages; all four short/long exam course pairs | High for active admissions URLs (proposed) | Verified — source metadata | Open | [Detail](findings/SR-B00-F05.md) |
 | SR-B00-F06 | A06 / A18 | Additional homepage-copy URL is public, self-canonical and sitemap-listed with identical search metadata | High if redundant (proposed) | Verified configuration; content equivalence and indexation pending | Open | [Detail](findings/SR-B00-F06.md) |
+| SR-B00-F07 | A06 / A18 | Maintenance page remains public and index-permitted | High if obsolete | Verified configuration; actual indexing pending | Open | [Detail](findings/SR-B00-F07.md) |
+| SR-B00-F08 | A04 / A06 | Seven sitemap pages lack observed incoming non-self links | High for retained admissions pages; otherwise contextual | Verified within raw crawl; rendered links pending | Open | [Detail](findings/SR-B00-F08.md) |
+| SR-B00-F09 | A06 | Gallery links to uppercase non-canonical Sports URL | Low to medium (proposed) | Verified URL and canonical configuration | Open | [Detail](findings/SR-B00-F09.md) |
+| SR-B00-F10 | A14 / A07 | Empty image alternative text requires classification | Medium; raise for informative admission imagery | Verified counts; contextual accessibility review pending | Open | [Detail](findings/SR-B00-F10.md) |
+| SR-B00-F11 | A13 | Image dimension attributes absent on 202 occurrences | Medium investigation priority | Verified source counts; actual CLS unmeasured | Open | [Detail](findings/SR-B00-F11.md) |
+| SR-B00-F12 | A13 | High script element counts warrant performance investigation | Investigation; severity pending measurements | Verified source counts; performance untested | Open | [Detail](findings/SR-B00-F12.md) |
+| SR-B00-F13 | A12 / A07 | Generic structured data; educational entities not detected | Medium opportunity; not a rich-result defect by itself | Verified type inventory; field-level validation pending | Open | [Detail](findings/SR-B00-F13.md) |
+| SR-B00-F14 | A01 / A07 | Placeholder text in Yoga Open Graph description | Medium (proposed) | Verified metadata text; rendered body pending | Open | [Detail](findings/SR-B00-F14.md) |
+| SR-B00-F15 | A06 / A18 | Elementor template entries exposed in sitemap | Investigation; priority depends on response/indexability | Verified sitemap entries; endpoint behaviour untested | Open | [Detail](findings/SR-B00-F15.md) |
 
 ## Finding record template
 
